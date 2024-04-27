@@ -76,7 +76,17 @@
                         @else
                        @if (Auth::user()->isUmat == 1)
                        <a href="/" class="nav-item nav-link active">Home</a>
-                        <a href="/validasi" class="nav-item nav-link">Hasil Validasi</a>
+                       <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Hasil Validasi
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/validasi">Validasi Ibadah Syukur</a>
+                                <a class="dropdown-item" href="/validasibaptis">Validasi Baptis</a>
+                                <a class="dropdown-item" href="/validasikatekisasi">Validasi Katekisasi</a>
+                                <a class="dropdown-item" href="/validasinikah">Validasi Pemberkatan Nikah</a>
+                            </div>
+                        </li>
                         <a href="/pengumuman" class="nav-item nav-link">Pengumuman</a>
                         <a href="/jadwal" class="nav-item nav-link">Daftar Pendeta</a>
                         <li class="nav-item dropdown">

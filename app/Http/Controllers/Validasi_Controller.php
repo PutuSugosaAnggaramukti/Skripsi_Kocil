@@ -12,4 +12,16 @@ class Validasi_Controller extends Controller
         $data_ibadah = ibadah::all();
         return view('validasi.index',compact("data_ibadah"));
     }
+
+    public function indexbaptis(request $request){
+        return view('validasi.indexbaptis');
+    }
+
+    public function indexkatekisasi(request $request){
+        return view('validasi.indexkatekisasi');
+    }
+
+    public function indexnikah(request $request){
+        return view('validasi.indexnikah');
+    }
 }

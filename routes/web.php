@@ -41,6 +41,9 @@ Route::get('/ibadah',[Ibadah_Controller::class, 'index']);
 Route::view('login','livewire.homeauth');
 //HALAMAN VALIDASI
 Route::get('/validasi',[Validasi_Controller::class, 'index']);
+Route::get('/validasibaptis',[Validasi_Controller::class, 'indexbaptis']);
+Route::get('/validasikatekisasi',[Validasi_Controller::class, 'indexkatekisasi']);
+Route::get('/validasinikah',[Validasi_Controller::class, 'indexnikah']);
 // Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 //Login Post
