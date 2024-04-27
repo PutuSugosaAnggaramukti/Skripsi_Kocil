@@ -161,7 +161,7 @@
                             <p class="text-white animated slideInLeft mb-4 pb-2">Terdapat Layanan Seperti</p>
                             <p class="text-white animated slideInLeft mb-3 pb-1">Ibadah Syukur, Baptis Anak, Pemberkatan Nikah dan Katekisasi</p>
                             <div class="d-grid">
-                            <a href="/ibadah"><button class="btn btn-warning" type="button" data-mdb-ripple-init>Pendaftaran Ibadah Syukur</button></a>
+                            <a href="/form-ibadah-syukur"><button class="btn btn-warning" type="button" data-mdb-ripple-init>Pendaftaran Ibadah Syukur</button></a>
                             </div>
                         </div>
                         <!-- <div id="calendar"> -->
@@ -180,25 +180,47 @@
         <!-- Service Start -->
 
         <div class="container-xxl py-5">
+        <h5 class="section-title ff-secondary text-start text-primary">Informasi Jadwal</h5>
             <div class="container">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="row g-3">
-          
-                    <div id="calendar">
-                    
+               <div class="row row-cols-1 row-cols-md-2 g-4">
+               <div class="col">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Jadwal Ibadah Syukur</h5>
+                        <p class="card-text">Silahkan cek jadwal ibadah syukur dengan menekan tombol cek jadwal</p>
+                        <a href="/ibadah" class="btn btn-primary">Cek Jadwal</a>
                     </div>
-                        </div>
                     </div>
-                    <div class="col-lg-6">
-                    <div id="formIbadah"> 
-                    <h5 class="section-title ff-secondary text-start text-primary fw-normal">Jadwal Ibadah Syukur</h5>
-                    <div>
-                    <label class="form-label" id="nama" for="form7Example1"></label>
+                </div>
+                <div class="col">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Jadwal Baptis</h5>
+                        <p class="card-text">Silahkan cek jadwal baptis dengan menekan tombol cek jadwal</p>
+                        <a href="/baptis" class="btn btn-primary">Cek Jadwal</a>
                     </div>
-                    <div>
-                    <label class="form-label" id="tanggal" for="form7Example2"></label>
                     </div>
+                </div>
+                 <div class="col">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Jadwal Katekisasi</h5>
+                        <p class="card-text">Silahkan cek jadwal katekisasi dengan menekan tombol cek jadwal</p>
+                        <a href="/katekisasi" class="btn btn-primary">Cek Jadwal</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Jadwal Pemberkatan Nikah</h5>
+                        <p class="card-text">Silahkan cek jadwal pemberkatan nikah dengan menekan tombol cek jadwal</p>
+                        <a href="/nikah" class="btn btn-primary">Cek Jadwal</a>
+                    </div>
+                    </div>
+                </div>
+               </div>
+               </div>
                         </div> 
                     </div>
                 </div>
