@@ -18,6 +18,11 @@ class Home_Controller extends Controller
         $ibadah = Ibadah::all();
         return view('homepage.homeumat',compact('ibadah'));
     }
+
+    public function indexpendeta(request $request){
+        $ibadah = Ibadah::all();
+        return view('homepage.homependeta',compact('ibadah'));
+    }
     
 
     public function searchId(Request $request){
